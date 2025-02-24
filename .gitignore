@@ -1,24 +1,116 @@
-# Compiled class file
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/*
+!.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+### IDE ###
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+.project
+.classpath
+.settings/
+
+### Environment ###
+.env
+.env.local
+*.env
+.env.development
+.env.production
+.env.test
+.env.staging
+.env.backup
+
+### Logs ###
+**/*.log
+logs/
+log/
+
+### OS generated files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Compiled files ###
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
+*.nar
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+### Package Files ###
+*.jar
+*.war
+*.ear
+application.properties
+application-*.yml
+application-*.yaml
+application-*.properties
+!application.yml
+!application.yaml
+!application.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Eclipse/STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.c9/
+.settings/
+.loadpath
+.springBeans
+.sts4-cache
+bin/
+
+### VS Code ###
+.vscode/
+
+### Spring Boot specific ###
+HELP.md
+*.log
+logs/
+.env
+.env.*
+*.env
+
+### Virtual machine crash logs ###
 hs_err_pid*
 replay_pid*
+src/main/resources/application.properties
