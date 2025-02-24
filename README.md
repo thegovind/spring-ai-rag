@@ -27,7 +27,7 @@ Below are the detailed flow diagrams showing how these technologies interact:
 ```mermaid
 graph TD
   %% Writer Evaluator Agent
-  subgraph BlogWriter_Service [Writer Evaluator Agent - Spring AI Orchestrated]
+  subgraph BlogWriter_Service [Writer Evaluator Agent]
     A1[Blog Topic Input] --> B1[Spring AI: Initialize Writer Task]
     B1 --> C1[Azure OpenAI: Chat Completion API - Writer Role]
     C1 --> D1[Initial Blog Draft in Azure PostgreSQL]
@@ -41,7 +41,7 @@ graph TD
   end
 
   %% RAG Service Flow
-  subgraph RAG_Service [RAG Flow - Spring AI Orchestrated]
+  subgraph RAG_Service [RAG Flow]
     K1[User Query Input] --> L1[Spring AI: Prepare Embedding]
     L1 --> M1[Azure OpenAI: Embedding API]
     M1 --> N1[Query Vector]
