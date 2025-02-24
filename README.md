@@ -1,6 +1,6 @@
-# Spring AI RAG Demo
+# Spring AI RAG and Agents Demo
 
-A simple console-based RAG (Retrieval Augmented Generation) implementation using Spring AI, Azure OpenAI, and Azure PostgreSQL with vector search capabilities. This demo is designed for educational purposes to teach RAG concepts through hands-on examples.
+A simple console-based RAG (Retrieval Augmented Generation) and Evaluator-Optimizer Agent implementation using Spring AI, Azure OpenAI, and Azure PostgreSQL with vector search capabilities. This demo is designed for educational purposes to teach RAG and Agents concepts through hands-on examples.
 
 ## Features
 
