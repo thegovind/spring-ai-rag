@@ -119,12 +119,19 @@ The application provides a shell interface with the following commands:
 
 - `help` - Show available commands and usage information
 - `ask "Your question"` - Ask questions using RAG
+- `write "Your topic"` - Generate content using Writer-Evaluator agent
 - `exit` - Exit the application
 
-Example:
+Examples:
 ```bash
+# RAG example
 ask "What is Spring AI?"
+
+# Writer-Evaluator example
+write "Spring AI and Azure OpenAI Integration in 3 sentences"
 ```
+
+The Writer-Evaluator agent will generate a concise explanation, evaluate it for accuracy and clarity, and refine if needed - all while maintaining the 3-sentence constraint.
 
 ## How It Works
 
