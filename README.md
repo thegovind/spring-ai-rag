@@ -113,6 +113,11 @@ graph TD
    mvn spring-boot:run
    ```
 
+5. PostgreSQL Setup:
+   - Ensure PostgreSQL is installed and running.
+   - Create a new database and user for the application.
+   - Install the pgvector extension in your PostgreSQL database.
+
 ## Usage
 
 The application provides a shell interface with the following commands:

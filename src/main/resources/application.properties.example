@@ -34,3 +34,10 @@ logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{3
 # Azure OpenAI specific logging
 logging.level.com.azure.ai.openai=INFO
 logging.level.com.azure.core=WARN
+
+# PostgreSQL Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/mydb
+spring.datasource.username=myuser
+spring.datasource.password=mypassword
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
